@@ -6,9 +6,8 @@ export function middleware(request: NextRequest) {
     const path = request.nextUrl.pathname;
     
     // Check the URL of incoming
-    const isPublicPath = path ==='/login'  || path ==='/forgetpassword' || path ==='/signup'
+    const isPublicPath = path ==='/login'  || path ==='/forgetpassword' || path==='/resetpassword' || path ==='/signup'
     const token = request.cookies.get('token')?.value || ''
-
     if(isPublicPath && token){
         return NextResponse.redirect(new URL('/profile', request.nextUrl))
     }
