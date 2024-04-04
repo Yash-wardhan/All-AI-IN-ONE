@@ -16,7 +16,6 @@ export default function ResetPassword() {
         // Extract token from URL when component mounts
         const query = new URLSearchParams(window.location.search);
         const token = query.get("token");
-        console.log(token)
         setToken(token ||"");
     }, []);
 

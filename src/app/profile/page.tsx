@@ -21,7 +21,6 @@ function ProfilePage() {
   useEffect(()=>{
     const getUserDetail = async()=>{
         const res = await axios.get('/api/users/me')
-        console.log(res.data)
         const Data = res.data.data
         setName(Data.username)
         if(Data.isVerified){

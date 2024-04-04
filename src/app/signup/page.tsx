@@ -28,7 +28,6 @@ export default function SignupPage() {
                 return;
             }
             setError(""); // Reset error state if validation succeeds
-            console.log(formData);
             setFormData({ username: "", email: "", password: "" }); // Clear form fields
             setCpassword(""); // Clear confirm password field
             // Further actions like sending the form data to an API can be performed here
