@@ -18,6 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://handbook-compared-sends-faculty.trycloudflare.com"
+          data-website-id="site_697079eb5022"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className={inter.className}>
         {children}
         <Footer />
