@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src="https://handbook-compared-sends-faculty.trycloudflare.com"
+          src="https://handbook-compared-sends-faculty.trycloudflare.com/cmp.js"
           data-website-id="site_697079eb5022"
           strategy="beforeInteractive"
         />
