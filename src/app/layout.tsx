@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src="https://elite-pried-collie.ngrok-free.dev/cmp.js"
+          src="https://circuit-treasures-sheriff-survey.trycloudflare.com/cmp.js"
           data-website-id="site_697079eb5022"
           strategy="beforeInteractive"
         />
