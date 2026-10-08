@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src="https://firewire-radical-zen-compliant.trycloudflare.com/cmp.js"
+          src="https://elite-pried-collie.ngrok-free.dev/cmp.js"
           data-website-id="site_697079eb5022"
           strategy="beforeInteractive"
         />
